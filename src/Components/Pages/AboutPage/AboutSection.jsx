@@ -8,7 +8,7 @@ import Banner01 from '../../../Image/BannerImg/Banner01.jpeg';
 import Banner02 from '../../../Image/BannerImg/Banner02.jpg';
 import Banner03 from '../../../Image/BannerImg/FullStackBanner.jpeg';
 import TextEffectFramer from '../../GlobalComponents/AnimatedCompo/TextEffectFramer';
-import suchit from '../../../MyDoc/Suchit.pdf'
+
 
 const AboutSection = () => {
     const theme = useTheme();

@@ -20,7 +20,7 @@ const Home = () => {
     const downloadCV = () => {
         let link = document.createElement('a');
         link.href = Suchit;
-        link.download = 'Suchi.pdf';
+        link.download = 'Suchit.pdf';
         link.target = '_blank'
         link.click();
     };
@@ -172,7 +172,7 @@ const Home = () => {
                                     component={'img'}
                                     src={Subject}
                                     alt='Subject'
-                                    title='About SAM'
+                                    title='About me'
                                     width={{ xxs: '200px', md: '300px' }}
                                     sx={{
                                         borderBottom: '10px solid ',
