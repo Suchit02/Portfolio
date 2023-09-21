@@ -20,7 +20,7 @@ const Home = () => {
     const downloadCV = () => {
         let link = document.createElement('a');
         link.href = Suchit;
-        link.download = Suchit;
+        link.download = 'Suchi.pdf';
         link.target = '_blank'
         link.click();
     };
