@@ -1,0 +1,81 @@
+{
+    "darkThemeColors": {
+        "themePresets": [
+            {
+                "themeName": "Default Dark",
+                "themeColors": {
+                    "backgroundColor": "#151922",
+                    "foregroundColor": "#1C1F24",
+                    "fontColor": "#FFFFFF"
+                }
+            },
+            {
+                "themeName": "Purple Dark",
+                "themeColors": {
+                    "backgroundColor": "#151522",
+                    "foregroundColor": "#35155D",
+                    "fontColor": "#FFFFFF"
+                }
+            },
+            {
+                "themeName": "Blue Dark",
+                "themeColors": {
+                    "backgroundColor": "#040D12",
+                    "foregroundColor": "#183D3D",
+                    "fontColor": "#93B1A6"
+                }
+            },
+            {
+                "themeName": "Purple2 Dark",
+                "themeColors": {
+                    "backgroundColor": "#352F44",
+                    "foregroundColor": "#352F44",
+                    "fontColor": "#FAF0E6"
+                }
+            }
+        ],
+        "themeHighlight": [
+            "#79E0EE",
+            "#F11A7B",
+            "#F8DE22",
+            "#39B5E0",
+            "#ffa500"
+        ]
+    },
+    "lightThemeColors": {
+        "themePresets": [
+            {
+                "themeName": "Default Light",
+                "themeColors": {
+                    "backgroundColor": "#F3FDE8",
+                    "foregroundColor": "#96B6C5",
+                    "fontColor": "#27374D"
+                }
+            },
+            {
+                "themeName": "Blue Light",
+                "themeColors": {
+                    "backgroundColor": "#FAF1E4",
+                    "foregroundColor": "#9EB384",
+                    "fontColor": "#435334"
+                }
+            },
+            {
+                "themeName": "Light Blue Light",
+                "themeColors": {
+                    "backgroundColor": "#93B1A6",
+                    "foregroundColor": "#183D3D",
+                    "fontColor": "#F3FDE8"
+                }
+            }
+        ],
+        "themeHighlight": [
+            "#79E0EE",
+            "#F11A7B",
+            "#F8DE22",
+            "#39B5E0",
+            "#ffa500",
+            "#FA3636"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "skillname": "HTML",
+        "skillPercen": 75,
+        "subSkills": [
+            "No Details"
+        ]
+    },
+    {
+        "skillname": "CSS",
+        "skillPercen": 75,
+        "subSkills": [
+            {
+                "skillName": "Bootstrap",
+                "skillPercen": 75,
+                "subSkills": [
+                    "No Details"
+                ]
+            },
+            {
+                "skillName": "HTML",
+                "skillPercen": 75,
+                "subSkills": [
+                    "No Details"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&family=Roboto&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto';
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .setting-box .MuiSvgIcon-root {
+    animation: settingsicon infinite 20s linear;
+  }
+  .upDownAnimation {
+    animation: upanddown infinite 1s alternate;
+  }
+  .rotateAnimation {
+    animation: rotatedAni infinite 60s linear;
+  }
+}
+
+
+@keyframes settingsicon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes upanddown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+@keyframes rotatedAni {
+  0% { transform: rotate(-50deg); }
+  50% { transform: rotate(40deg); }
+  100% { transform: rotate(-50deg); }
+}
