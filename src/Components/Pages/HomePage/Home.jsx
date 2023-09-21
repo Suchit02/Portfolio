@@ -18,8 +18,8 @@ const Home = () => {
 
     const downloadCV = () => {
         let link = document.createElement('a');
-        link.href = '/suchit.pdf';
-        link.download = 'suchit.pdf';
+        link.href = '/Suchit.pdf';
+        link.download = 'Suchit.pdf';
         link.target = '_blank'
         link.click();
     };
