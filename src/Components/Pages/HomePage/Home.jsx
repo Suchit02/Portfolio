@@ -18,7 +18,7 @@ const Home = () => {
 
     const downloadCV = () => {
         let link = document.createElement('a');
-        link.href = '/SAM CV.pdf';
+        link.href = '/suchit.pdf';
         link.download = 'Suchit';
         link.target = '_blank'
         link.click();
