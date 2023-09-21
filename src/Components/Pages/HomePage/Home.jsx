@@ -10,10 +10,10 @@ import TranslateXFramer from '../../GlobalComponents/AnimatedCompo/TranslateXFra
 const Home = () => {
     const theme = useTheme();
     const socialMedia = [
-        { icon: 'LinkedIn', link: 'https://www.linkedin.com/in/suchit-mishra-3a788b259' },
-        { icon: 'GitHub', link: 'https://github.com/Suchit02' },
-        { icon: 'Facebook', link: 'https://www.facebook.com/suchitmishra' },
-        { icon: 'Instagram', link: 'https://www.instagram.com/satya.ravan.28/' }
+        { icon:LinkedIn, link: 'https://www.linkedin.com/in/suchit-mishra-3a788b259' },
+        { icon: GitHub, link: 'https://github.com/Suchit02' },
+        { icon: Facebook, link: 'https://www.facebook.com/suchitmishra' },
+        { icon: Instagram, link: 'https://www.instagram.com/satya.ravan.28/' }
     ];
 
     const downloadCV = () => {
