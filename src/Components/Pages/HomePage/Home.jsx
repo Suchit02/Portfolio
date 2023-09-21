@@ -6,6 +6,7 @@ import Subject from '../../../Image/Subject.png';
 import BtnHoverFramer from '../../GlobalComponents/AnimatedCompo/BtnHoverFramer';
 import TextEffectFramer from '../../GlobalComponents/AnimatedCompo/TextEffectFramer';
 import TranslateXFramer from '../../GlobalComponents/AnimatedCompo/TranslateXFramer';
+import Suchit from '../../../MyDoc/Suchit.pdf'
 
 const Home = () => {
     const theme = useTheme();
@@ -18,8 +19,8 @@ const Home = () => {
 
     const downloadCV = () => {
         let link = document.createElement('a');
-        link.href = '/Suchit.pdf';
-        link.download = 'Suchit.pdf';
+        link.href = Suchit;
+        link.download = Suchit;
         link.target = '_blank'
         link.click();
     };
